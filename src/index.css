@@ -1,0 +1,209 @@
+:root {
+    --primary-blue: #0d6efd;
+    --secondary-blue: #3c91e6;
+    --accent-blue: #b6d4fe;
+    --light-blue: #f0f8ff;
+    --text-dark: #1a1a1a;
+    --text-medium: #444;
+    --text-light: #777;
+    --white: #ffffff;
+
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--text-dark);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--white);
+    overflow-x: hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-blue);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: var(--text-medium);
+}
+
+a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary-blue);
+}
+
+/* Custom selection */
+::selection {
+    background-color: var(--accent-blue);
+    color: var(--white);
+}
+::-moz-selection {
+    background-color: var(--accent-blue);
+    color: var(--white);
+}
+
+/* Navbar styling (no logo now) */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.navbar {
+    background-color: var(--primary-blue);
+}
+
+/* Button styling */
+.btn-success {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    transition: all 0.3s ease;
+    color: var(--white);
+}
+
+.btn-success:hover {
+    background-color: var(--secondary-blue);
+    border-color: var(--secondary-blue);
+    transform: scale(1.02);
+}
+
+/* Card shadow */
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light-blue);
+}
+
+/* File input styling */
+input[type="file"] {
+    background-color: var(--white);
+    border: 1px solid var(--accent-blue);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Loader styling */
+#loader {
+    display: none;
+}
+
+.spinner-border {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Prediction result */
+#resultSection {
+    font-size: 1.1rem;
+    background-color: #eaf4ff;
+    border-left: 5px solid var(--primary-blue);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+/* Responsive spacing for mobile */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #resultSection {
+        font-size: 1rem;
+    }
+}
+
+/* Animate fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Focus styles */
+*:focus {
+    outline: 2px solid var(--accent-blue);
+    outline-offset: 2px;
+}
+
+/* Reset for lists & buttons */
+ul {
+    list-style: none;
+}
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Form elements */
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Print styles */
+@media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+}
