@@ -1,0 +1,83 @@
+{
+  "language": {
+    "title": "Select Language"
+  },
+  "nav": {
+    "home": "Home"
+  },
+  "hero": {
+    "title": "Your Smart Farming Assistant",
+    "subtitle": "AI-Powered Agricultural Solutions",
+    "description": "Get personalized crop recommendations, identify plant diseases instantly, and access real-time weather forecasts. Make smarter farming decisions with our comprehensive agricultural toolkit.",
+    "buttons": {
+      "explore": "Explore Features",
+      "tryDisease": "Try Disease ID"
+    }
+  },
+  "features": {
+    "title": "Smart Features",
+    "disease": {
+      "title": "Disease Identification",
+      "description": "Upload plant images for instant disease detection and treatment recommendations."
+    },
+    "weather": {
+      "title": "Weather Forecast",
+      "description": "Get accurate weather predictions and farming advisories for your location."
+    },
+    "crop": {
+      "title": "Crop Planning",
+      "description": "Receive personalized crop recommendations based on soil and climate data."
+    }
+  },
+  "diseases": {
+    "title": "Plant Disease Identification",
+    "subtitle": "Identify Diseases Instantly",
+    "features": {
+      "upload": "Upload plant images for instant analysis",
+      "info": "Get detailed disease information",
+      "treatment": "Receive treatment recommendations",
+      "prevention": "Access preventive measures"
+    },
+    "button": "Try Disease ID"
+  },
+  "weather": {
+    "title": "Weather & Farming Advisory",
+    "realtime": {
+      "title": "Real-time Weather",
+      "description": "Get accurate weather forecasts and farming advisories for your location."
+    },
+    "advisory": {
+      "title": "Farming Advisory",
+      "items": {
+        "planting": "Optimal planting dates",
+        "irrigation": "Irrigation scheduling",
+        "pest": "Pest control timing",
+        "harvest": "Harvest recommendations"
+      }
+    }
+  },
+  "crops": {
+    "title": "Smart Crop Planning",
+    "selection": {
+      "title": "Crop Selection",
+      "description": "Get personalized crop recommendations based on your soil type and local climate."
+    },
+    "guide": {
+      "title": "Growing Guide",
+      "description": "Access detailed growing instructions and best practices for your selected crops."
+    },
+    "market": {
+      "title": "Market Insights",
+      "description": "Stay informed about market trends and demand for your crops."
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message"
+    }
+  }
+} 
