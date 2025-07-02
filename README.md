@@ -70,23 +70,6 @@ Built with machine learning, this app is a practical tool for improving disease 
 
 ## 🏗️ Project Structure
 
-```
-plant-disease-prediction/
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── assets/
-├── templates/
-│   ├── index.html
-│   ├── dashboard.html
-│   └── result.html
-├── model/
-│   └── disease_model.pkl
-├── app.py
-├── utils.py
-├── requirements.txt
-└── README.md
-```
 
 
 ### Typography
